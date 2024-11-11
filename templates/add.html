@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Add Item</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Add New Item</h1>
+        <form method="POST">
+            <label>Name:</label>
+            <input type="text" name="name">
+            <label>Description:</label>
+            <input type="text" name="description">
+            <button type="submit" class="button">Add Item</button>
+        </form>
+    </div>
+</body>
+</html>
